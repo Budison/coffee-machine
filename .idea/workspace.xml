@@ -4,29 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="df554003-3eaf-46da-b6dd-5d98cc808030" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/jpa-buddy.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/github/budison/AbstractMaker.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/github/budison/AmericanoMaker.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/github/budison/CappuccinoMaker.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/github/budison/CoffeeMachine.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/github/budison/Cup.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/github/budison/CupFactory.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/github/budison/CupFactoryImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/github/budison/EspressoMaker.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/github/budison/LatteMaker.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/github/budison/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/github/budison/MocaccinoMaker.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/github/budison/Recipe.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/github/budison/CoffeeMachineTest.java" afterDir="false" />
-    </list>
+    <list default="true" id="df554003-3eaf-46da-b6dd-5d98cc808030" name="Changes" comment="Initial" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -164,8 +142,16 @@
       <workItem from="1663838673751" duration="1296000" />
       <workItem from="1663841937210" duration="1156000" />
       <workItem from="1663845154370" duration="24000" />
-      <workItem from="1664197719479" duration="640000" />
+      <workItem from="1664197719479" duration="1049000" />
     </task>
+    <task id="LOCAL-00001" summary="Initial">
+      <created>1664198758177</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1664198758177</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -181,6 +167,10 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Initial" />
+    <option name="LAST_COMMIT_MESSAGE" value="Initial" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
