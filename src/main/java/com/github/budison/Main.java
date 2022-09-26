@@ -2,20 +2,22 @@ package com.github.budison;
 
 import java.util.HashMap;
 import java.util.Map;
+import java.util.Scanner;
 
 public class Main {
 
     public static void main(String[] args) {
         CoffeeMachine coffeeMachine = new CoffeeMachine();
         coffeeMachine.setMakersMap(setUp());
-        System.out.println(coffeeMachine.processRequest("AMERICANO"));
-        System.out.println(coffeeMachine.processRequest("ESPRESSO"));
-        System.out.println(coffeeMachine.processRequest("LATTE"));
+
+        Scanner scanner = new Scanner(System.in);
+        System.out.print("Enter the coffee you want: ");
+        String userInput = scanner.nextLine();
 
         try {
-            System.out.println(coffeeMachine.processRequest("TEA"));
+            System.out.println(coffeeMachine.processRequest(userInput.toUpperCase()));
         } catch (RuntimeException e) {
-            System.err.println("THIS MACHINE DOES NOT SERVE TEA!");
+            System.err.println("Invalid input!");
         }
     }
 
@@ -25,6 +27,7 @@ public class Main {
         makersMap.put("ESPRESSO", new EspressoMaker());
         makersMap.put("LATTE", new LatteMaker());
         makersMap.put("CAPPUCCINO", new CappuccinoMaker());
+        makersMap.put("MOCACCINO", new MocaccinoMaker());
         return makersMap;
     }
 }

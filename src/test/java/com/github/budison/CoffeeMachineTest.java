@@ -20,6 +20,7 @@ public class CoffeeMachineTest {
         makersMap.put("LATTE", new LatteMaker());
         makersMap.put("CAPPUCCINO", new CappuccinoMaker());
         makersMap.put("MOCACCINO", new MocaccinoMaker());
+        makersMap.put("ESPRESSOCONPANNA", new EspressoConPannaMaker());
         coffeeMachine.setMakersMap(makersMap);
     }
 
@@ -55,6 +56,15 @@ public class CoffeeMachineTest {
     @Test
     public void shouldGetMocaccinoRecipe() {
         String response = coffeeMachine.processRequest("MOCACCINO");
-        assertEquals("{ \"espresso\": 1, \"water\": 0, \"milk\": 2, \"foam\": 1, \"chocolate\": 1 }", response);
+        assertEquals(
+                "{ \"espresso\": 1, \"water\": 0, \"milk\": 2, \"foam\": 1, \"chocolate\": 1 }",
+                response
+        );
+    }
+
+    @Test
+    public void shouldGetEspressoConPannaRecipe() {
+        String response = coffeeMachine.processRequest("ESPRESSOCONPANNA");
+        assertEquals("{ \"espresso\": 1, \"water\": 1, \"milk\": 0, \"foam\": 0, \"cream\": 1 }", response);
     }
 }
